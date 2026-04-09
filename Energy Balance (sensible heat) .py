@@ -1,0 +1,6 @@
+m = float(input("mass flow (kg/s): "))
+Cp = float(input("Heat capacity (kJ/kg.K): "))
+T1 = float(input("inlet temperature (°C): "))
+T2 = float(input("outlet temperature (°C): "))
+Q = m * Cp * (T2 - T1)
+print("Heat duty Q =", Q, "KW")
